@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Routes from "./Pages/Routes.jsx";
 
-import SunAndMoon from "./SunAndMoon/SunAndMoon.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <SunAndMoon />
+        <Routes />
     </React.StrictMode>
 );
