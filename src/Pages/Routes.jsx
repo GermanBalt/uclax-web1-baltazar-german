@@ -1,8 +1,8 @@
-import { Routes, Route, Hashrouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 // global styles
 import "@/Common/css/normalize.css";
-import "Common/css/global.scss";
+import "@/Common/css/global.scss";
 
 // layout
 import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
@@ -20,7 +20,7 @@ import Responsivedesign from "./Coursework/Responsivedesign.jsx";
 
 const MyRoutes = () => {
     return (
-        <Hashrouter>
+        <HashRouter>
             <Routes>
                 <Route element={<PagesLayout />}>
                     <Route element={<Home />} path="" />
@@ -37,7 +37,7 @@ const MyRoutes = () => {
                     </Route>
                 </Route>
             </Routes>
-        </Hashrouter>
+        </HashRouter>
     );
 };
 
