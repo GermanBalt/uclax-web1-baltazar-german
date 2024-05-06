@@ -7,14 +7,14 @@ import MainMenu from "./MainMenu.jsx";
 import Hamburger from "./Hamburger.jsx";
 
 const Small = () => {
-    const [showMenu, showMenuUpdate] = useState(false);
+    const [showMenu, setShowMenu] = useState(false);
 
     const toggle = () => {
-        showMenuUpdate(!showMenu);
+        setShowMenu(!showMenu);
     };
 
     const hideMenu = () => {
-        showMenuUpdate(false);
+        setShowMenu(false);
     };
 
     return (
