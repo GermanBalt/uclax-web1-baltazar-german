@@ -19,6 +19,7 @@ import CourseWorkLayout from "./Coursework/CourseworkLayout.jsx";
 import SunAndMoon from "./Coursework/SunAndMoon/SunAndMoon.jsx";
 import Essays from "./Coursework/Essays/Essays.jsx";
 import Responsivedesign from "./Coursework/Responsivedesign.jsx";
+import Fundamentals from "./Coursework/Fundamentals/Fundamentals.jsx";
 
 const MyRoutes = () => {
     return (
@@ -42,6 +43,10 @@ const MyRoutes = () => {
                             <Route
                                 element={<Responsivedesign />}
                                 path="responsive"
+                            />
+                            <Route
+                                element={<Fundamentals />}
+                                path="javascript-fundamentals"
                             />
                         </Route>
                     </Route>
