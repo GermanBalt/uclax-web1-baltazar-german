@@ -58,6 +58,31 @@ const Essays = () => {
                 vector graphics, infinitely scalable with small file sizes for
                 simple graphics.
             </SingleEssay>
+            <SingleEssay question={`Q7:`}>
+                Product Manager: Responsible for the overall vision, strategy,
+                and roadmap of the product. They prioritize features based on
+                market and customer needs, ensuring the product aligns with the
+                company's goals. Scrum Master: Facilitates the Scrum process by
+                organizing meetings, removing obstacles, and ensuring the team
+                follows Agile practices. They act as a coach for the team,
+                helping to improve efficiency and productivity. UX Designer:
+                Focuses on the user experience and interface design of the
+                product. They conduct user research, create wireframes and
+                prototypes, and work to ensure the product is user-friendly and
+                meets user needs. Developer/Engineer: Responsible for writing,
+                testing, and maintaining the code. They work on implementing
+                user stories and features, fixing bugs, and ensuring the
+                technical aspects of the product are robust and scalable.
+                QA/SDET (Software Development Engineer in Test): Ensures the
+                quality of the product through automated and manual testing.
+                They develop test plans, write test cases, and identify and fix
+                bugs, ensuring the product meets the required standards. DevOps:
+                Focuses on the deployment and operations of the product. They
+                work on continuous integration and continuous deployment (CI/CD)
+                pipelines, infrastructure as code, and monitoring and
+                maintaining production environments to ensure smooth and
+                efficient delivery.
+            </SingleEssay>
         </EssaysStyled>
     );
 };
