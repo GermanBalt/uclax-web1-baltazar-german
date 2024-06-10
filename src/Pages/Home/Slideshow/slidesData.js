@@ -1,33 +1,33 @@
-import slide1 from './img/Core-Strength.jpg';
-import slide2 from './img/Staff-In-Action.jpg';
-import slide3 from './img/Senior.jpg';
-import slide4 from './img/Group-Picture.jpg';
-import slide5 from './img/Aerial-Open-Gym.jpg';
+import slide1 from "./img/HustleAbs.jpeg";
+import slide2 from "./img/HustleAbs2.jpeg";
+import slide3 from "./img/SamMitts.jpeg";
+import slide4 from "./img/HustleAdult.jpeg";
+import slide5 from "./img/HustleKids2.jpeg";
 
 export const slidesData = [
     {
         id: 1,
         image: slide1,
-        title: 'Core Strength',
+        title: "Core Strength",
     },
     {
         id: 2,
         image: slide2,
-        title: 'Staff In Action',
+        title: "Core Strength 2",
     },
     {
         id: 3,
         image: slide3,
-        title: 'Senior',
+        title: "Hustle Kids",
     },
     {
         id: 4,
         image: slide4,
-        title: 'Group Picture',
+        title: "1 On 1",
     },
     {
         id: 5,
         image: slide5,
-        title: 'Aerial Open Gym',
+        title: "Kids Group",
     },
-]
+];
