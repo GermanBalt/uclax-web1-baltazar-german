@@ -8,7 +8,7 @@ import Youtube from "./MyYouTubePlayer/Youtube";
 const Home = () => {
     return (
         <HomeStyled>
-            <h1>Home</h1>
+            <h1>Home 2</h1>
             <Slideshow />
             <Youtube />
             <Inset>
